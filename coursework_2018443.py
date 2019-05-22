@@ -1,5 +1,4 @@
 #PYTHON COURSE WORK 01 - 2018443 - R.M.Malsha Piumini-W1742126
-#--------------------------------------------------------------
 
 arr0=[]#to store data between 0-30
 arr30=[]#to store data between 30-40
@@ -12,10 +11,6 @@ max_marks=0 #highest marks
 min_marks=100#lowestmarks
 total=0#total sum of the marks
 max_array=0#maximum length of the array
-
-#if you make a global variable you can use them out of the loop
-#The return keyword is to exit a function and return a value
-#functions are like methods in java
 
 def compute():
     global no_of_marks
@@ -66,18 +61,7 @@ def printing():
     global min_marks
     global total
     print("")
-    
-#printing stars method 1
-##    print("Marks between 0-29","  ",end="")
-##    print("*"*(len(arr0)))
-##    print("\nMarks between 30-39"," ",end="")
-##    print("*"*(len(arr30)))
-##    print("\nMarks between 40-69"," ",end="")
-##    print("*"*(len(arr40)))
-##    print("\nMarks between 70-100","",end="")
-##    print("*"*(len(arr70)))
-
-#printing stars method 2 by using loops      
+#printing stars     
     print("Marks between 0-30","  ",end="")
     stars(len(arr0))
 
